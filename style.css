@@ -10,6 +10,8 @@ body {
     background-image: url(tajikistan-4584690_1920.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
+    font-family: Arial, Helvetica, sans-serif;
+
 }
 
 li {
@@ -96,4 +98,22 @@ h2 {
     color: black;
     border: 2px solid black;
     background: lightslategray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px;  
+    border: 1px solid #ccc;
+    border-radius: 4px; 
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    background-color: lightslategray;
+
+  }
+
+label{
+    color:white;
 }
